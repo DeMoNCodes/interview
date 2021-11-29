@@ -18,14 +18,6 @@ const mapDispatchToProps = dispatch => ({
 });
 
 class App extends React.Component {
-  componentWillReceiveProps(nextProps) {
-   
-  }
-
-  componentWillMount() {
-
-  }
-
   render() {
       return (
         <div>

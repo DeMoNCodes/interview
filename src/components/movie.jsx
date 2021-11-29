@@ -19,8 +19,6 @@ import poster9 from "../data/Slices/poster9.jpg";
 import { getList } from '../action/movies';
 
 
-
-
 const mapStateToProps = state => {
   return {
     ...state.movies
@@ -122,9 +120,6 @@ class Movies extends React.Component {
     }
     }, 300);
   }
-
-
-
       return (
         <div   >
           <div style={{overflow:"auto",paddingTop:"6%"}}>

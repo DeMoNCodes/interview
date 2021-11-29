@@ -50,10 +50,8 @@ class Header extends React.Component {
       <nav className="navbar navbar-light " style={{backgroundColor:"black",color:"white",position:"fixed",width:"100%"}} >
         <div style={{width:"100%",display:"grid",gridTemplateColumns:"auto auto auto auto"}}> 
           <i>
-          <ArrowBackIcon></ArrowBackIcon> </i>
-         
+          <ArrowBackIcon></ArrowBackIcon> </i>   
           <h4 style={{whiteSpace:"nowrap",paddingLeft:"20px"}}>{head}</h4>
-
           {!this.state.search ? <Button onClick={()=>this.enableSearch()}><SearchIcon /></Button> : ""}
           <div  style={{justifyContent:"center" }}> {this.state.search ?  <SearchBar style={{height:"35px"}} onChange={(e)=>this.searchMovie(e)}></SearchBar>  : ""}</div>
       
